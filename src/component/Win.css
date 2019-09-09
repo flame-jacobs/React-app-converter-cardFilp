@@ -1,0 +1,27 @@
+.middle{
+    float: left;
+    width: 29%;
+    padding: 30px;
+    height: 300px;
+    color:transparent;
+    background-image: url("mon.jpg");
+    background-size: 200px 300px;
+    margin-right: 10px;
+    max-width: 200px;
+    min-width: 200px;
+
+}
+
+.middle:active{
+    background-image: url("mon1.jpg");
+    color: black;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    transform: rotateY(360deg);
+
+}
+
+.word{
+
+    margin-top: 50px;
+}
